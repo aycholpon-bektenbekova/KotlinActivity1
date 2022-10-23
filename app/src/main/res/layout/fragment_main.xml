@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_zero"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/zero"
+        android:textColor="@color/black"
+        android:textSize="44sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/minus_one"
+        android:text="@string/minus1"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/plus_one"
+        android:text="@string/plus1"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="280dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>
